@@ -4,6 +4,7 @@ import "./App.css";
 import About from './components/about/About';
 import CourseHome from './components/allcourses/CourseHome';
 import Blog from './components/blog/Blog';
+import Footer from './components/common/footer/Footer';
 import Header from "./components/common/heading/Header"
 import Contact from './components/contact/Contact';
 import Home from './components/home/Home';
@@ -25,6 +26,8 @@ function App () {
         <Route path='/journal' element={<Blog/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
+      
+      <Footer/>
     </Router>
       
     </>
